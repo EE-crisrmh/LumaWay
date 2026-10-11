@@ -1,6 +1,6 @@
 # LumaWay 🌄
 
-> **A GPS-guided autonomous drone system that guides lost hikers back to safety.**
+*A GPS-guided autonomous drone system that guides lost hikers back to safety.*
 
 ---
 
