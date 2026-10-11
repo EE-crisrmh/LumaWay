@@ -1,14 +1,10 @@
 # LumaWay 🌄
 
-*A GPS-guided autonomous drone system that guides lost hikers back to safety.*
-
 ---
 
 ## The Problem
 
 Every year, thousands of hikers get lost on trails across the United States. Terrain looks the same in every direction. Cell service is gone. Panic sets in. Search and rescue teams can take hours to respond — and in the mountains, hours matter.
-
-Current solutions require hikers to stay still and wait. LumaWay flips that. Instead of waiting to be found, the hiker gets found — and then guided home.
 
 ---
 
