@@ -4,7 +4,7 @@
 
 ## The Problem
 
-Every year, thousands of hikers get lost on trails across the United States. Terrain looks the same in every direction. Cell service is gone. Panic sets in. Search and rescue teams can take hours to respond — and in the mountains, hours matter.
+Every year, thousands of hikers get lost on trails across the United States. Terrain looks the same in every direction. Cell service is gone. Panic sets in. Search and rescue teams can take hours to respond, and in the mountains, hours matter.
 
 ---
 
@@ -14,13 +14,13 @@ LumaWay is an autonomous drone system built for one purpose: get a lost hiker ba
 
 Here's how it works:
 
-1. **Before the hike**, the hiker opens the LumaWay app and starts a session. The app passively records their GPS trail as they walk in — no interaction needed, just like a fitness tracker running in the background.
+1. **Before the hike**, the hiker opens the LumaWay app and starts a session. The app passively records their GPS trail as they walk in, no interaction needed, just like a fitness tracker running in the background.
 
 2. **If they get lost**, they hit the SOS button. The app sends their current GPS location and their recorded trail path to the LumaWay ground station.
 
 3. **The drone launches autonomously**, navigates to the hiker's GPS coordinates, and locates them.
 
-4. **LumaWay leads them out.** The drone flies the recorded trail path in reverse — slowly, at walking pace — using a bright LED and audio signal to guide the hiker back to the trailhead. Follow the light. That's it.
+4. **LumaWay leads them out.** The drone flies the recorded trail path in reverse, slowly, at walking pace, using a bright LED and audio signal to guide the hiker back to the trailhead. Follow the light. That's it.
 
 No payload to drop. No complex robotics. Just a reliable, visible guide in the sky when you need it most.
 
@@ -30,7 +30,7 @@ No payload to drop. No complex robotics. Just a reliable, visible guide in the s
 
 A drone can cover terrain a person can't. It flies over downed trees, river crossings, and steep ridgelines. It doesn't get lost. It doesn't get tired. And it can reach a hiker in minutes rather than hours.
 
-LumaWay isn't trying to replace search and rescue — it's a first response that buys time, reduces panic, and gets people moving in the right direction before conditions get worse.
+LumaWay isn't trying to replace search and rescue, it's a first response that buys time, reduces panic, and gets people moving in the right direction before conditions get worse.
 
 ---
 
@@ -39,7 +39,7 @@ LumaWay isn't trying to replace search and rescue — it's a first response that
 LumaWay is built across three integrated components:
 
 **Custom Flight Controller (Hardware)**
-A 4-layer custom PCB built around dual STM32 microcontrollers — one for navigation, one for I/O. Onboard sensors include dual IMUs (ICM-20689, ICM-20602), a barometer (MS5611), and a magnetometer (IST8310) for full attitude and altitude awareness. Designed and manufactured in-house.
+A 4-layer custom PCB built around dual STM32 microcontrollers, one for navigation, one for I/O. Onboard sensors include dual IMUs (ICM-20689, ICM-20602), a barometer (MS5611), and a magnetometer (IST8310) for full attitude and altitude awareness. Designed and manufactured in-house.
 
 **Onboard Computing (Autonomy)**
 An NVIDIA Jetson Nano handles high-level autonomy — GPS waypoint navigation, computer vision for hiker confirmation, and communication with the ground station over a wireless link.
@@ -61,7 +61,7 @@ A mobile app for hikers. Records the trail on the way in. Sends SOS with one tap
 
 ## Status
 
-🔧 **In development** — UW Bothell Capstone Project, 2026–2027
+ **In development** - UW Bothell Capstone Project, 2026–2027
 
 ---
 
@@ -88,5 +88,5 @@ Built by a four-person Electrical Engineering capstone team at the University of
 
 ---
 
-*LumaWay — your way home made easy*
+*LumaWay - your way home made easy*
 
